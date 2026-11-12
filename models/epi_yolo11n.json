@@ -1,0 +1,55 @@
+{
+  "classes": [
+    "Hardhat",
+    "Mask",
+    "NO-Hardhat",
+    "NO-Mask",
+    "NO-Safety Vest",
+    "Person",
+    "Safety Cone",
+    "Safety Vest",
+    "machinery",
+    "vehicle"
+  ],
+  "imgsz": 416,
+  "epochs": 13,
+  "base": "yolo11n.pt",
+  "metrics": {
+    "val": {
+      "mAP50": 0.6559,
+      "mAP50-95": 0.3574,
+      "precision": 0.7996,
+      "recall": 0.6006,
+      "per_class_mAP50": {
+        "Hardhat": 0.7633,
+        "Mask": 0.8037,
+        "NO-Hardhat": 0.5288,
+        "NO-Mask": 0.3995,
+        "NO-Safety Vest": 0.5733,
+        "Person": 0.7263,
+        "Safety Cone": 0.8545,
+        "Safety Vest": 0.6561,
+        "machinery": 0.8011,
+        "vehicle": 0.4525
+      }
+    },
+    "test": {
+      "mAP50": 0.5795,
+      "mAP50-95": 0.3017,
+      "precision": 0.7111,
+      "recall": 0.5319,
+      "per_class_mAP50": {
+        "Hardhat": 0.7848,
+        "Mask": 0.7254,
+        "NO-Hardhat": 0.4184,
+        "NO-Mask": 0.287,
+        "NO-Safety Vest": 0.622,
+        "Person": 0.7132,
+        "Safety Cone": 0.2855,
+        "Safety Vest": 0.6758,
+        "machinery": 0.7717,
+        "vehicle": 0.5115
+      }
+    }
+  }
+}
