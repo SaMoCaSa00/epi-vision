@@ -8,11 +8,13 @@
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![YOLO11](https://img.shields.io/badge/YOLO11n-Ultralytics-111?logo=yolo)
 ![ONNX](https://img.shields.io/badge/ONNX%20Runtime-CPU-005CED?logo=onnx)
-![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)
+[![Streamlit](https://img.shields.io/badge/Abrir%20o%20app-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://epi-vision.streamlit.app)
 
 <img src="docs/demo.jpg" width="760" alt="Exemplos de detecção: verde = conforme, vermelho = falta EPI, laranja = verificar">
 
 </div>
+
+**[▶ Testar online: epi-vision.streamlit.app](https://epi-vision.streamlit.app)**
 
 ## O problema
 
